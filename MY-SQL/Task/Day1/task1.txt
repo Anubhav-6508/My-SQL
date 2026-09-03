@@ -1,0 +1,8 @@
+link for practice:
+https://www.db-fiddle.com/f/7fnLq7sZNknYPfm6U2xEAH/0
+
+link w3schools
+https://www.w3schools.com/sql/sql_exercises.asp
+
+link:
+https://www.jetpunk.com/user-quizzes/1336712/sql-starter-quiz
