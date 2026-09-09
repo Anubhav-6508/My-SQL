@@ -1,0 +1,21 @@
+how many type of RDMS : 
+1.SQL-> Oracle , MySql
+2.NO-sql--> mDB,cascendra
+
+--------------------------------------------
+SQL--> there two types of Database present :
+OLTP--> communication daily per with data base  
+OLAP--> only select operation is happening here
+       : why?
+	   because it very old data so 
+	   we need only perform analitics
+	   
+OLTP(Online Transaction Processing):
+1.Used for day-to-day transactions 
+2.Handles frequent INSERT, UPDATE, DELETE 
+3.Deals with current/operational data.
+
+OLAP(Online Analytical Processing):
+Used for analysis and reporting
+operations	Mainly handles complex SELECT queries
+Often analyzes historical and aggregated data
