@@ -1,0 +1,124 @@
+BETWEEN operator used with WHERE Clause.
+The BETWEEN operator selects values within a given range. The values can be
+numbers, text, or dates.
+The BETWEEN operator is inclusive: begin and end values are included.
+
+
+
+
+10 to 15
+This operator evaluates to TRUE
+when the column value is greater than or equals to a low value.
+10 >=
+when the column value is less than or equal to a high value
+<= 15
+
+a to h
+This operator evaluates to TRUE
+when the column value is greater than or equals to a low value.
+a>=
+when the column value is less than to a high value
+<h
+
+
+It can be used with SELECT, INSERT, UPDATE, or DELETE statement.
+
+
+SELECT column1,column2, ...
+FROM table name
+WHERE column name
+BETWEEN value1 AND value2 ; 
+
+
+
+
+==================================================
+The IN operator allows you to specify multiple values in a WHERE
+clause.
+
+It determine if a value matches any value in a list of values.
+
+IN operator returns 1 (true) if the value equals any value in the list
+(value1, value2, value3, ... ). Otherwise, it returns 0.
+
+The IN operator is functionally equivalent to the combination of
+multiple OR operators
+
+
+SELECT column1,column2, ...
+FROM table_name
+WHERE column name
+IN (value1,value2 ... );
+
+
+=============================================================
+not in
+==============================================
+
+
+
+LIKE Operator
+
+NOT LIKE Operator
+
+Wildcard Characters
+
+· Percentage (%)
+
+Underscore
+
+ESCAPE Character
+
+==========================================================
+
+The LIKE operator is used with the WHERE clause to get a result set that matches
+the given search pattern in a column.
+
+LIKE operator can be used in the WHERE clause of a SELECT, INSERT, UPDATE, or
+DELETE statement.
+
+
+
+
+LIKE Operator
+
+LIKE 'j%'      Finds any values that starts with "j"
+
+LIKE '%a'      Finds any values that ends with "a"
+
+LIKE '%er%'    Finds any values that have "er" in any position
+
+LIKE '_r%'     Finds any values that have "r" in the second position
+
+LIKE 'b%g'    Finds any values that starts with "b" and ends with "g"
+
+Description
+
+Improves the performance of an application.
+Saves time in filtering records from the table.
+
+
+
+Select all employee with a name that follows the below
+condition :
+The name must start with the letter "T",
+The third letter of name must be "m", and
+The second letter of name can be anything.
+
+
+Q that name doesn't contain A
+
+
+
+Q
+Display id, name and dob of the employee whose dob
+is not in March month.
+
+
+
+
+
+
+
+
+
