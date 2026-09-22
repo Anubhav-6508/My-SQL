@@ -1,0 +1,26 @@
+INT,
+
+gender
+
+CREATE TABLE employees
+
+INT
+emp_no
+first_name VARCHAR(20)
+last_name VARCHAR(20)
+salary
+birth_date DATE
+ENUM ('M','F') NOT NULL,
+joining_date DATE
+department VARCHAR(20),
+PRIMARY KEY (emp_no)
+
+NOT NULL,
+NOT NULL,
+NOT NULL,
+
+NOT NULL,
+
+NOT NULL,
+
+);
